@@ -54,11 +54,11 @@ jekyll-archives:
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
+  - cat: 色情
+    desc: "力比多，是人类最原初的动力"
 
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+  - cat: 时尚
+    desc: "高跟鞋是第二性吗？"
 
 # Social icons and sharing options
 #
