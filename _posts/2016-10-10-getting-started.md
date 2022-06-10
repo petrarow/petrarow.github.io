@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Getting Started"
+title: "告解之定改"
 author: "Paul Le"
 categories: documentation
 tags: [documentation,sample]
