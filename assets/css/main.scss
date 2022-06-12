@@ -1,29 +1,74 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$base-font-family: 'Roboto', sans-serif;
-$body-font-family: 'Roboto', sans-serif;
-$code-font-family: "Source Code Pro", monospace;
+@import
 
-$brand-color: black;
+    "skins/{{ site.text_skin | default: site.data.variables.default.text_skin }}",
+    // "skins/chocolate",
+    // "skins/dark",
+    // "skins/default",
+    // "skins/forest",
+    // "skins/ocean",
+    // "skins/orange",
 
-$container-width: 1100px;
-$tablet-width: 600px;
-$phone-width: 480px;
+    "skins/highlight/{{ site.highlight_theme | default: site.data.variables.default.highlight_theme }}",
+    // "skins/highlight/tomorrow",
+    // "skins/highlight/tomorrow-night",
+    // "skins/highlight/tomorrow-night-eighties",
+    // "skins/highlight/tomorrow-night-blue",
+    // "skins/highlight/tomorrow-night-bright",
 
-$header-thickness: 56px;
 
-$icon-transition-time: 1.0s;
-$envelope-color: #f39c12;
-$twitter-color: #00aced;
-$instagram-color: #375989;
-$github-color: #343434;
-$linkedin-color: #0073a4;
-$facebook-color: #3d5b99;
-$google-color: #e64a41;
-$pinterest-color: #bd081c;
-$medium-color: #00AB6C;
-$codepen-color: black;
-$rss-color: #ff6600;
+    "common/variables",
+    "common/function",
+    "common/classes",
+    "common/reset",
+    "common/print",
+    "common/components/button",
+    "common/components/image",
+    "common/components/card",
+    "common/components/gallery",
+    "common/components/hero",
+    "common/components/menu",
+    "common/components/modal",
+    "common/components/toc",
+    "common/components/item",
+    "common/components/swiper",
 
-@import "-sections-dir";
+    "animate/fade-in",
+    "animate/fade-in-down",
+    "animate/fade-in-up",
+
+    "components/main",
+    "components/header",
+    "components/footer",
+    "components/article-list",
+    "components/article-info",
+    "components/article-header",
+    "components/article-content",
+    "components/article-footer",
+    "components/author-links",
+    "components/author-profile",
+    "components/tags",
+    "components/search",
+    "components/lightbox",
+    "components/extensions",
+
+
+    "additional/alert",
+    "additional/tag",
+    "additional/photo-frame",
+
+    "layout/base",
+    "layout/page",
+
+    "layout/article",
+    "layout/articles",
+    "layout/archive",
+    "layout/home",
+    "layout/landing",
+    "layout/404",
+
+    "custom"
+;
