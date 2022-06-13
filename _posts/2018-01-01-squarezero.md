@@ -2,13 +2,13 @@
 title: Square Zero
 layout: post
 date: '1995-01-01 10:22:23 +0000'
-background: https://cdna.artstation.com/p/assets/images/images/004/560/916/large/dominik-mayer-redmoon.jpg
+background: file:///Users/rosu/Documents/GitHub/petrarow.github.io/img/bg-about.jpg
 tags:
 - Discourse
 - NonFiction
 subtitle: What is this?
 artist: artstation.com/dtmayer
----
+--- 
 
 # Looks like I'm doing this.
 Our mind is a constant source of new ideas and thoughts, which often end up garbled after we move on with time, and new
