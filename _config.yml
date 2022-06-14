@@ -1,20 +1,25 @@
-title:             みちよのBLOG
-email:             sherlockwaston@gmail.com
-description:       xxoo
-author:            みちよ
-#url:               "localhost:4000"
-url:               "http://squarezero.github.io/"
-baseurl:
+permalink: /:year:month:day/:title
+url: #Your url here
+baseurl: /
 
-# Social Profiles
-#twitter_username:  SBootstrap
-#github_username:   BlackrockDigital
-#facebook_username: StartBootstrap
+# variables
+name: みちよのパソコン
+description: みちよ的个人博客，存放一些危险杂货。
+google_verification: null
 
-# Build settings
-markdown:          kramdown
-paginate:          10
-paginate_path:     "/posts/page:num/"
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable : true
